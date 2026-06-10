@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[홍대 홍대 노래방 추천정보]]></title>
+  <title><![CDATA[노래방]]></title>
   <link>https://yokohama-plumbing.pages.dev</link>
-  <description><![CDATA[홍대 노래방 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-  <language>ko-KR</language>
-  <pubDate>Thu, 28 May 2026 14:30:33 GMT</pubDate>
-  <lastBuildDate>Thu, 28 May 2026 14:30:33 GMT</lastBuildDate>
+  <description><![CDATA[노래방 - 홍대 노래방 추천정보 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Fri, 05 Jun 2026 10:36:56 GMT</pubDate>
+  <lastBuildDate>Fri, 05 Jun 2026 10:36:56 GMT</lastBuildDate>
   <atom:link href="https://yokohama-plumbing.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[홍대 홍대 노래방 추천정보 - 공식 홈페이지 오픈 안내]]></title>
-      <link>https://yokohama-plumbing.pages.dev/</link>
-      <guid isPermaLink="true">https://yokohama-plumbing.pages.dev/</guid>
-      <description><![CDATA[홍대 노래방 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-      <pubDate>Thu, 28 May 2026 14:30:33 GMT</pubDate>
+      <title><![CDATA[&quot;그때 그 시절, 삐끗하면 컷! 최적의 프레임은 바로 지금, 홍대 밤의 멜로디를 찾아서&quot;]]></title>
+      <link>https://yokohama-plumbing.pages.dev/posts/guide-003.html</link>
+      <guid isPermaLink="true">https://yokohama-plumbing.pages.dev/posts/guide-003.html</guid>
+      <description><![CDATA[elden ring, data mining, unused boss, cut content, boss fight, game development, secret, hidden, pattern, unused, cut, developer, secret boss, unrelea]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[그때 그 시절, ‘그’ 청문회에서 묻혔던 3가지 코드네임의 진실]]></title>
+      <link>https://yokohama-plumbing.pages.dev/posts/review-001.html</link>
+      <guid isPermaLink="true">https://yokohama-plumbing.pages.dev/posts/review-001.html</guid>
+      <description><![CDATA[old document, tape recorder, dimly lit room, conspiracy, government building, classified documents, 1970s, manila folder, desk, shadow, interrogation,]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[힙스터 새끼들이 모르는 &#39;진짜&#39; 블레이드 러너, 유니콘 꿈은 무슨 개뿔]]></title>
+      <link>https://yokohama-plumbing.pages.dev/posts/review-002.html</link>
+      <guid isPermaLink="true">https://yokohama-plumbing.pages.dev/posts/review-002.html</guid>
+      <description><![CDATA[이봐, 요즘 친구들은 뭐만 보면 '원조', '원조' 하면서 난리들이지? 의 그 유명한 총알 시간 장면 말이야. 그거 보면서 폼 잡는 녀석들, 정작 그 뿌리가 어디서 왔는지 제대로 아는 놈 하나 못 봤다니까. 그러다 문득 떠오르는 게 바로 의 그 릭 데커드 아저씨 유니콘]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
 </rss>
