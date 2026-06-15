@@ -3,144 +3,312 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>홍대 노래방 추천정보 – 블로그</title>
-    <meta name="description" content="2025년 1분기 홍대 지역 37개 노래방의 음향·청결·가격 데이터를 분석한 최종 추천 리스트. 면밀한 평가 없이 시간 낭비하지 마십시오.">
-    <meta name="keywords" content="홍대 노래방, 홍대 노래방 추천, 홍대 코인노래방, 홍대 노래방 가격, 홍대 노래방 후기">
-    <link rel="canonical" href="https://best-hapjeong-pub.xyz/blog.html">
-    <meta property="og:title" content="홍대 노래방 추천정보 – 블로그">
-    <meta property="og:description" content="어차피 즐길 거면 제대로 즐기십시오. 홍대 노래방 37곳의 객관적 평가를 제공합니다.">
-    <meta property="og:url" content="https://best-hapjeong-pub.xyz/blog.html">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Design System & Theme Meta Tags -->
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    
+    <!-- SEO Metadata -->
+    <title>홍대 노래방 추천졍보: 데이터 기반 공간 분석 및 선택 가이드</title>
+    <meta name="description" content="단순 오락을 넘어 음향학, 공간 구성, 그룹 단위 운영 적합성을 데이터 기반으로 분석합니다. 홍대 인근 상급 매장을 엄선한 선택 기준과 이용 전 필수 확인사항을 명료하게 정리했습니다.">
+    <meta name="keywords" content="홍대 노래방 추천정보, 홍대 가라오케 순위, 홍대 노래방 가격 비교, 고급스러운 노래방 홍대, 음향 분석">
+    
+    <!-- Canonical & Social -->
+    <link rel="canonical" href="https://example.com/hongdae-karaoke-info">
+
+    <!-- CSS Core (Responsive-768 Pattern) -->
     <style>
-        /* ---- RESET & BASE (Brutalist minimal) ---- */
-        *,*::before,*::after{ margin:0; padding:0; box-sizing:border-box; }
-        html{ font-size:16px; scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
-        body{ font-family:'Pretendard','Noto Sans KR',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:#0d0d0d; color:#e0e0e0; line-height:1.7; }
-        a{ color:#b3a78c; text-decoration:none; transition:color 0.2s; }
-        a:hover{ color:#d4c9a8; }
-        img{ max-width:100%; height:auto; display:block; }
-        ul,ol{ list-style:none; }
-        h1,h2,h3,h4{ font-weight:700; letter-spacing:-0.02em; }
-        h1{ font-size:2.4rem; line-height:1.2; margin-bottom:1rem; color:#f0ede6; }
-        h2{ font-size:1.8rem; margin-bottom:0.75rem; color:#d9d0bc; border-left:4px solid #b3a78c; padding-left:0.75rem; }
-        h3{ font-size:1.3rem; margin-bottom:0.5rem; color:#c9bfab; }
-        p{ margin-bottom:1.25rem; font-size:1rem; color:#c0bdb0; }
-        /* ---- SPACE SYSTEM (airy) ---- */
-        header,main,footer,section,article{ margin:0 auto; padding:0 1.5rem; }
-        section{ padding:4rem 0; max-width:1100px; }
-        section:last-of-type{ padding-bottom:6rem; }
-        /* ---- NAV ---- */
-        nav{ background:#1a1a1a; border-bottom:2px solid #2a2a2a; position:sticky; top:0; z-index:100; display:flex; justify-content:space-between; align-items:center; padding:0.75rem 1.5rem; }
-        nav .logo{ font-size:1.3rem; font-weight:700; color:#f0ede6; letter-spacing:-0.02em; }
-        nav .nav-links{ display:flex; gap:2rem; }
-        nav .nav-links a{ font-size:0.95rem; color:#b3a78c; text-transform:uppercase; letter-spacing:0.05em; }
-        nav .nav-links a:hover{ color:#d4c9a8; }
-        .hamburger{ display:none; flex-direction:column; cursor:pointer; gap:4px; }
-        .hamburger span{ width:28px; height:2px; background:#b3a78c; transition:0.3s; }
-        @media (max-width:768px){
-            nav .nav-links{ display:none; position:absolute; top:100%; left:0; right:0; background:#1a1a1a; flex-direction:column; padding:1rem 1.5rem; gap:1rem; border-bottom:2px solid #2a2a2a; }
-            nav .nav-links.active{ display:flex; }
-            .hamburger{ display:flex; }
+        :root {
+            /* Editorial Apple Variables */
+            --bg-main: #050505;
+            --bg-secondary: #121212;
+            --text-primary: #f0f0f0;
+            --text-secondary: #a0a0a0;
+            
+            /* Noir Gold Theme Accents */
+            --gold-accent: #D4AF37;
+            --gold-hover: #F5E698;
+            --border-color: #333333;
+            
+            /* Spacing & Layout */
+            --container-width: 1200px;
+            --spacing-unit: 2rem;
+            --radius-sm: 4px;
         }
-        /* ---- TEL LINK ---- */
-        .tel-link{ display:inline-block; background:#2a2a2a; color:#f0ede6; padding:0.5rem 1.25rem; border-radius:0; font-weight:600; font-size:0.95rem; transition:background 0.2s; text-transform:uppercase; letter-spacing:0.05em; }
-        .tel-link:hover{ background:#3a3a3a; }
-        /* ---- BLOG POST ---- */
-        .blog-meta{ font-size:0.85rem; color:#7a7a6e; margin-bottom:2rem; display:flex; gap:1.5rem; }
-        .blog-meta span{ display:inline-block; }
-        .blog-body{ max-width:800px; margin:0 auto; }
-        .blog-body blockquote{ border-left:4px solid #b3a78c; padding-left:1.25rem; margin:1.5rem 0; color:#b0aa96; font-style:italic; }
-        .blog-body .data-table{ width:100%; border-collapse:collapse; margin:1.5rem 0; }
-        .blog-body .data-table th,.blog-body .data-table td{ border:1px solid #2a2a2a; padding:0.75rem; text-align:left; }
-        .blog-body .data-table th{ background:#1a1a1a; color:#d9d0bc; font-weight:600; }
-        .blog-body .data-table td{ background:#121212; }
-        /* ---- FOOTER ---- */
-        footer{ border-top:2px solid #2a2a2a; padding:2rem 1.5rem; text-align:center; font-size:0.85rem; color:#666; }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            font-family: 'Gotham', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Layout Utilities */
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header, main, footer {
+            box-sizing: border-box;
+        }
+
+        h1, h2, h3 {
+            font-weight: 700;
+            color: var(--gold-accent);
+            margin-top: 0;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--gold-hover);
+        }
+
+        /* Navigation */
+        nav {
+            border-bottom: 1px solid var(--border-color);
+            padding: 24px 0;
+            position: sticky;
+            top: 0;
+            background: rgba(5, 5, 5, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 100;
+        }
+
+        .nav-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: -1px;
+        }
+
+        .menu-list {
+            display: none; /* Mobile First / Hidden by default for desktop view if needed, simplified here */
+        }
+        
+        @media (min-width: 768px) {
+            .menu-list {
+                display: flex;
+                gap: 32px;
+            }
+        }
+
+        /* Hero Section */
+        .hero-section {
+            padding: 100px 0;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .hero-title {
+            font-size: 48px;
+            line-height: 1.2;
+            margin-bottom: 24px;
+        }
+
+        .hero-subtitle {
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 18px;
+            border-left: 3px solid var(--gold-accent);
+            padding-left: 24px;
+            display: inline-block;
+        }
+
+        /* Content Sections */
+        .content-section {
+            margin-bottom: 80px;
+        }
+
+        .grid-2-col {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 48px;
+        }
+
+        @media (min-width: 768px) {
+            .grid-2-col {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Info Cards */
+        .info-card {
+            background: var(--bg-secondary);
+            padding: 32px;
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .info-card:hover {
+            border-color: var(--gold-accent);
+            transform: translateY(-4px);
+        }
+
+        .label-badge {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        /* Data Table Styling */
+        .comparison-table-wrapper {
+            overflow-x: auto;
+            border: 1px solid var(--border-color);
+        }
+
+        table.data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #1a1a1a;
+            color: var(--gold-accent);
+            font-weight: 600;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* FAQ */
+        .faq-item {
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+        
+        .faq-answer {
+            margin-top: 8px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 60px 0;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 12px;
+        }
+
     </style>
 </head>
 <body>
+
+    <!-- Navigation -->
     <nav>
-        <div class="logo">홍대노래방</div>
-        <ul class="nav-links">
-            <li><a href="/">홈</a></li>
-            <li><a href="/ranking">랭킹</a></li>
-            <li><a href="/blog">블로그</a></li>
-            <li><a href="/about">소개</a></li>
-            <li><a href="tel:05071234567" class="tel-link">전화 문의</a></li>
-        </ul>
-        <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">
-            <span></span><span></span><span></span>
+        <div class="container nav-flex">
+            <a href="#" class="logo" style="color:white;">NOIR AUDIO.</a>
+            <ul class="menu-list">
+                <li><a href="#">ᄒ홈</a></li>
+                <li><a href="#">리뷰 아카이브</a></li>
+                <li><a href="#">지역 정보</a></li>
+                <li><a href="#" style="color:var(--gold-accent);">분석 보고서</a></li>
+            </ul>
         </div>
     </nav>
 
-    <main>
-        <section>
-            <article class="blog-body">
-                <h1>홍대 노래방, 데이터로 증명된 진짜 가성비 5선</h1>
-                <div class="blog-meta">
-                    <span>2025.03.28</span>
-                    <span>by 분석팀</span>
-                    <span>카테고리: 추천</span>
-                </div>
-                <p>홍대입구역 2번 출구에서 도보 5분 이내에 위치한 37개 노래방을 대상으로 2025년 1분기 음향 시스템, 마이크 감도, 객실 청결도, 가격 대비 시간당 이용료, 코인노래방과 일반 노래방의 수익률 차이를 객관적으로 측정했다. 각 항목은 10점 만점으로 평가했으며, 최종 점수는 가중 평균(음향 35%, 청결 25%, 가격 20%, 접근성 10%, 부대시설 10%)으로 산출했다.</p>
-                <p>결과는 냉정했다. 상위 5곳이 전체 방문자의 68%를 독점하는 구조였으며, 나머지 32곳은 마이크 노이즈나 환기 부족으로 인해 추천하기 어려운 수준이었다. 특히 2만 원 미만의 코인노래방 중에서는 단 3곳만이 음향 점수 7점 이상을 기록했다.</p>
+    <!-- Header / Hero -->
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">홍대 노래방 추천정보<br><span style="font-size:0.6em; opacity:0.8; vertical-align:text-bottom;">데이터 기반 선택 가이드</span></h1>
+            <p class="hero-subtitle">
+                단순 오락을 넘어 음향학, 공간 구성, 그룹 단위 운영 적합성을 데이터 기반으로 분석합니다.<br>
+                "최고의 분위기"라는 추상적 개념 대신, 객관적인 기ᅵ술 매개변수로 공간의 등급을 부여합니다.
+            </p>
+        </div>
+    </header>
 
-                <h2>1위: 레드스튜디오 홍대점</h2>
-                <p>종합 점수 9.2점. JBL Professional 시리즈 스피커와 Sennheiser 무선 마이크를 도입한 유일한 업소. 시간당 18,000원(주말 22,000원)으로 가격 대비 성능이 압도적이다. 청결도 9.5점, 음향 9.8점. 단점은 예약이 3일 전에 마감된다는 점.</p>
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- Section 1: Core Criteria -->
+        <section class="content-section" id="criteria">
+            <h2 style="font-size: 32px; margin-bottom: 40px;">01. 평가 기준의 해부학</h2>
+            
+            <div class="grid-2-col">
+                <article class="info-card">
+                    <span class="label-badge">음향학 (Acoustics)</span>
+                    <h3>공명 주파수 분석</h3>
+                    <p style="color:var(--text-secondary); margin-top:16px;">
+                        대부분의 상용 가라ᄋ오케 시스템은 저주파 대역에서 과도한 공명을 일으켜 고음 부가 뭉개지는 현상을 보입니다. 상위권 공간은 특정 주파수 대역을 감쇠시키는 '네이킹 룸' 기법을 적용하거나, 음압 레벨 (SPL) 을 90dB 이하로 제한하여 피로도 지수를 낮춥니다.
+                    </p>
+                </article>
 
-                <h2>2위: 코인노래방 쏭쏭</h2>
-                <p>종합 점수 8.7점. 1곡에 500원이라는 파격적인 가격에도 불구하고 음향 점수 8.3점. 다만 부스 간 차음이 약해 옆방 소리가 약간 들린다. 24시간 운영, 무료 정수기 제공.</p>
+                <article class="info-card">
+                    <span class="label-badge">조명 설계 (Lighting)</span>
+                    <h3>반사 계수 및 색온도</h3>
+                    <p style="color:var(--text-secondary); margin-top:16px;">
+                        'ᄇ분위기'는 조명에 의해 무ᄒ리적으로 정의됩니다. 단순한 RGB 변경이 아니라, 벽면 반사율 (Reflectance) 이 0.4 이상인 소재를 사용하여 광량을 극대화하는 설계가 필요합니다. 이는 어두운 공간임에도 심박수를 낮추는 데 기여합니다.
+                    </p>
+                </article>
+            </div>
+        
+<div class="seo-visual-divider" role="separator" aria-label="홍대 노래방 추천정보 구분선" style="margin:32px 0;text-align:center;color:#e5e5e0;font-size:0.85rem;letter-spacing:0.5em">◆ ◆ ◆</div>
+</section>
 
-                <h2>3위: 룩스홀</h2>
-                <p>종합 점수 8.4점. 인테리어에 공을 들인 곳으로 청결도 9.0점, 조명 시스템 9.2점. 시간당 25,000원으로 가격은 높지만 4인 이상 단체 이용 시 1인 무료 이벤트 진행 중.</p>
+<!-- SEO Visual 2: 노래방 Cardless Editorial List -->
+<div class="seo-visual-cards" role="img" aria-label="홍대 노래방 추천정보 노래방 — 코인 노래방 정보" 
+     style="display:flex;flex-direction:column;gap:0;margin:40px 0;border-top:1px solid #e5e5e0;border-bottom:1px solid #e5e5e0;background:#faf9f6">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 01 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">특화</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">홍대 노래방 추천정보</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 02 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">다수 실적</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">홍대 노래방 추천정보</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:none;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 03 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">고품질</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">홍대 노래방 추천정보</span>
+  </div>
+</div>
 
-                <h2>4위: 미스터보컬</h2>
-                <p>종합 점수 8.1점. 지역 주민 사이에서 입소문난 곳. 오래된 장비를 교체하지 않아 음향 점수는 7.5점에 그쳤지만, 친절도와 서비스 점수가 9.5점으로 전체 평균을 끌어올렸다.</p>
-
-                <h2>5위: 노래하는별</h2>
-                <p>종합 점수 7.9점. 코인노래방 중 유일하게 Antelope Audio 인터페이스를 사용. 1곡 700원. 음향 점수 8.8점이지만 부스 크기가 작아 3인 이상이면 답답하다.</p>
-
-                <blockquote>“데이터 없이 고르는 건 도박이다. 우리는 37곳을 모두 직접 방문해 측정했다.”</blockquote>
-
-                <h3>FAQ – 자주 묻는 질문</h3>
-                <p><strong>Q: 코인노래방과 일반 노래방 중 어디가 더 나은가요?</strong><br>
-                A: 혼자 또는 두 명이 방문한다면 코인노래방(특히 1·2위)이 가성비가 좋습니다. 단, 음질과 공간감을 원한다면 일반 노래방(레드스튜디오)이 유일한 선택지입니다.</p>
-                <p><strong>Q: 주말에 방문하려면 어떻게 예약해야 하나요?</strong><br>
-                A: 레드스튜디오와 룩스홀은 전화 예약(0507-123-4567)만 가능합니다. 코인노래방은 예약 없이 현장 방문 가능하나, 오후 8시~12시는 대기 시간이 20분 이상 발생합니다.</p>
-                <p><strong>Q: 음향이 가장 중요한데, 추천해 주세요.</strong><br>
-                A: 레드스튜디오(9.8점) > 노래하는별(8.8점) > 코인노래방 쏭쏭(8.3점) 순입니다. 예산이 충분하다면 레드스튜디오를 강력히 권장합니다.</p>
-
-                <table class="data-table">
-                    <thead>
-                        <tr><th>업소명</th><th>종합점수</th><th>시간당 가격</th><th>음향</th><th>청결</th></tr>
-                    </thead>
-                    <tbody>
-                        <tr><td>레드스튜디오</td><td>9.2</td><td>18,000원</td><td>9.8</td><td>9.5</td></tr>
-                        <tr><td>코인노래방 쏭쏭</td><td>8.7</td><td>500원/곡</td><td>8.3</td><td>8.8</td></tr>
-                        <tr><td>룩스홀</td><td>8.4</td><td>25,000원</td><td>8.0</td><td>9.0</td></tr>
-                        <tr><td>미스터보컬</td><td>8.1</td><td>15,000원</td><td>7.5</td><td>8.5</td></tr>
-                        <tr><td>노래하는별</td><td>7.9</td><td>700원/곡</td><td>8.8</td><td>7.5</td></tr>
-                    </tbody>
-                </table>
-                <p>위 데이터는 2025년 3월 15일부터 3월 27일까지 수집되었으며, 모든 측정은 동일한 조건에서 진행되었습니다. 객관성을 위해 각 업소를 3회 이상 방문해 평균값을 사용했습니다.</p>
-                <p><a href="tel:05071234567" class="tel-link">추가 문의 및 예약: 0507-123-4567</a></p>
-            </article>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2025 홍대 노래방 추천정보. 모든 데이터는 직접 수집·분석되었습니다.</p>
-        <p>서울 마포구 와우산로 94 · <a href="tel:05071234567">0507-123-4567</a></p>
-    </footer>
-
-    <script>
-        // 간단한 햄버거 메뉴 토글 (네비게이션 바에서 이미 인라인으로 사용)
-        document.querySelectorAll('.hamburger').forEach(btn => {
-            btn.addEventListener('click', function(){
-                document.querySelector('.nav-links').classList.toggle('active');
-            });
-        });
-    </script>
-</body>
+        <!-- Section 2: Comparison Data -->
+        <section class="content-section" style="background-color: var(--bg-secondary); padding: 60px 48px; border-radius: 12px;">
+            </body>
 </html>
